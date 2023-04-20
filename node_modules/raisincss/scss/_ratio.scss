@@ -1,0 +1,16 @@
+$ratios-and-values: (
+  (21by9, 42.857143%)
+  (16by9, 56.25%)
+  (4by3, 75%)
+  (1by1, 100%)
+) !default;
+
+.#{$prefix}ratio {
+  @each $ratio, $value in $ratios-and-values {
+    &-#{$ratio}::before {
+      display: block;
+      content: "";
+      padding-top: $value;
+    }
+  }
+}

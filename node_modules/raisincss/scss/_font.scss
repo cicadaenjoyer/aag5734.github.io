@@ -1,0 +1,74 @@
+$fontSizeXs: .75rem !default;
+$fontSizeSm: .875rem !default;
+$fontSizeBase: 1rem !default;
+$fontSizeLg: 1.125rem !default;
+$fontSizeXl: 1.25rem !default;
+$fontSize2Xl: 1.5rem !default;
+$fontSize3Xl: 1.875rem !default;
+$fontSize4Xl: 2.25rem !default;
+$fontSize5Xl: 3rem !default;
+
+$fontSizes: (
+  (xs, $fontSizeXs),
+  (sm, $fontSizeSm),
+  (base, $fontSizeBase),
+  (lg, $fontSizeLg),
+  (xl, $fontSizeXl),
+  (2xl, $fontSize2Xl),
+  (3xl, $fontSize3Xl),
+  (4xl, $fontSize4Xl),
+  (5xl, $fontSize5Xl),
+) !default;
+
+$fontWeights: (
+  (thin, 200),
+  (light, 300),
+  (normal, 400),
+  (medium, 500),
+  (bold, 700),
+  (bolder, 800)
+) !default;
+
+$fontSans: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !default;
+$fontSerif: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif !default;
+$fontMono: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace !default;
+
+.#{$prefix}font {
+  //browser supported font-family styles
+  &-sans {
+    font-family: $fontSans;
+  }
+  &-serif {
+    font-family: $fontSerif;
+  }
+  &-mono {
+    font-family: $fontMono;
+  }
+}
+
+
+@include with-breakpoints() using ($prefix-with-bname) {
+  .#{$prefix-with-bname}font{
+    &-italic {
+      font-style: italic;
+    }
+    &-roman {
+      font-style: normal;
+    }
+    &-antialiased {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    @each $name, $size in $fontSizes {
+      &-#{$name} {
+        font-size: $size;
+      }
+    }
+    @each $name, $weight in $fontWeights {
+      &-#{$name} {
+        font-weight: $weight;
+      }
+    }
+  }
+}

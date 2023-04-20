@@ -1,0 +1,15 @@
+@include with-breakpoints() using ($prefix-with-bname) {
+  .#{$prefix-with-bname}float {
+    @each $value in (right, left, none) {
+      &-#{$value} {
+        float: $value;
+      }
+    }
+  }
+
+  .#{$prefix-with-bname}clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

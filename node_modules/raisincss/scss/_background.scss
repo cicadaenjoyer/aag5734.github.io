@@ -1,0 +1,45 @@
+$bg-attachments: (fixed, local, scroll) !default;
+
+$bg-positions-and-values: (
+  (center, center)
+  (top, top)
+  (right, right)
+  (bottom, bottom)
+  (left, left)
+  (right-top, right top)
+  (right-bottom, right bottom)
+  (left-top, left top)
+  (left-bottom, left bottom)
+) !default;
+
+$bg-repeats: (repeat, no-repeat, repeat-x, repeat-y) !default;
+
+$bg-sizes: (auto, cover, contain) !default;
+
+@include with-breakpoints() using ($prefix-with-bname) {
+  .#{$prefix-with-bname}bg {
+    @each $attachment in $bg-attachments {
+      &-#{$attachment} {
+        background-attachment: $attachment;
+      }
+    }
+
+    @each $repeat in $bg-repeats {
+      &-#{$repeat} {
+        background-repeat: $repeat;
+      }
+    }
+
+    @each $size in $bg-sizes {
+      &-#{$size} {
+        background-size: $size;
+      }
+    }
+
+    @each $position, $value in $bg-positions-and-values {
+      &-#{$position} {
+        background-position: $value;
+      }
+    }
+  }
+}

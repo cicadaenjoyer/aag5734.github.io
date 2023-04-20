@@ -1,0 +1,61 @@
+$margins-and-letters: (
+  (top,t)
+  (right,r)
+  (bottom,b)
+  (left,l)
+);
+
+@include with-breakpoints() using ($prefix-with-bname) {
+  .#{$prefix-with-bname}m {
+    @for $n from 0 through 12 {
+      &-#{$n} {
+        margin: $n * 0.25rem;
+      } 
+
+      @each $margin, $letter  in $margins-and-letters  {
+        &#{$letter}-#{$n} {
+          margin-#{$margin}: $n * 0.25rem;
+        }
+      }
+    }
+
+    &l {
+      &-auto {
+        margin-left: auto;
+      }
+    }
+
+    &r {
+      &-auto {
+        margin-right: auto;
+      }
+    }
+
+    &x {
+      @for $n from 0 through 12 {
+        &-#{$n} {
+          margin-left: $n * 0.25rem;
+          margin-right: $n * 0.25rem;
+        }
+      }
+
+      &-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    &y {
+      @for $n from 0 through 12 {
+        &-#{$n} {
+          margin-top: $n * 0.25rem;
+          margin-bottom: $n * 0.25rem;
+        }
+      }
+
+      &-auto {
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+  }
+}

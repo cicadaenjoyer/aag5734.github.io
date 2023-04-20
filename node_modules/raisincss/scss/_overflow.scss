@@ -1,0 +1,16 @@
+@include with-breakpoints() using ($prefix-with-bname) {
+  .#{$prefix-with-bname}overflow {
+    @each $value in (auto, hidden, visible, scroll) {
+      &-#{$value} {
+        overflow: $value;
+      }
+    }
+    @each $orientation in (x, y) {
+      @each $value in (auto, hidden, visible, scroll) {
+        &-#{$orientation}-#{$value} {
+          overflow-#{$orientation}: $value;
+        }
+      }
+    }
+  }
+}

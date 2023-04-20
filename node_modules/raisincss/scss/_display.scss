@@ -1,0 +1,10 @@
+
+@include with-breakpoints() using ($prefix-with-bname) {
+  .#{$prefix-with-bname}display {
+    @each $value in (block, inline-block, inline, table, table-row, table-cell, none) {
+      &-#{$value} {
+        display: $value;
+      }
+    }
+  }
+}

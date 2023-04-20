@@ -1,0 +1,10 @@
+@include with-breakpoints() using ($prefix-with-bname) {
+  @for $n from 0 through 5 {
+    .#{$prefix-with-bname}z-#{$n*10} {
+      z-index: $n*10;
+    }
+  }
+  .#{$prefix-with-bname}z-auto {
+    z-index: auto;
+  }
+}

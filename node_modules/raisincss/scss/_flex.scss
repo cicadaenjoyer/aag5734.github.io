@@ -1,0 +1,70 @@
+$justifys-and-values: (
+  (start, flex-start) 
+  (end, flex-end)
+  (center, center)
+  (between, space-between)
+  (around, space-around)
+  (evenly, space-evenly)
+) !default;
+
+$items-and-values: (
+  (start, flex-start) 
+  (end, flex-end)
+  (center, center)
+  (baseline, baseline)
+  (stretch, stretch)
+) !default;
+
+$contents-and-values: (
+  (start, flex-start) 
+  (end, flex-end)
+  (center, center)
+  (stretch, stretch)
+  (between, space-between)
+  (around, space-around)
+) !default;
+
+@include with-breakpoints() using ($prefix-with-bname) {
+  .#{$prefix-with-bname}flex {
+    display:flex;
+
+    @each $direction in (row, column) {
+      &-#{$direction} {
+        flex-direction: $direction;
+
+        &-reverse {
+          flex-direction: $direction + -reverse;
+        }
+      }
+    }
+
+    @each $value in (wrap, wrap-reverse, nowrap) {
+      &-#{$value} {
+        flex-wrap: $value;
+      }
+    }
+  }
+
+  @each $justify, $value in $justifys-and-values {
+    .#{$prefix-with-bname}justify-#{$justify} {
+      justify-content: $value;
+    }
+  } 
+
+
+  @each $item, $value in $items-and-values {
+    .#{$prefix-with-bname}items-#{$item} {
+      align-items: $value;
+    }
+
+    .#{$prefix-with-bname}self-#{$item} {
+      align-self: $value;
+    }
+  }
+
+  @each $content, $value in $contents-and-values {
+    .#{$prefix-with-bname}content-#{$content} {
+      align-content: $value;
+    }
+  } 
+}

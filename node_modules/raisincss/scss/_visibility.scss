@@ -1,0 +1,7 @@
+@include with-breakpoints() using ($prefix-with-bname) {
+  @each $value in (visible, hidden) {
+    .#{$prefix-with-bname}#{$value} {
+      visibility: $value
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "raisincss",
+  "version": "1.1.1",
+  "description": "An Utility CSS only library. It supports css grid and many more useful css properties.",
+  "main": "raisin.min.css",
+  "scripts": {
+    "build": "npm run build:full && npm run build:min",
+    "build:min": "sass --style=compressed ./raisin.scss ./raisin.min.css",
+    "build:full": "sass ./raisin.scss ./raisin.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tretapey/raisincss.git"
+  },
+  "author": "tretapey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tretapey/raisincss/issues"
+  },
+  "homepage": "https://github.com/tretapey/raisincss#readme",
+  "devDependencies": {
+    "sass": "^1.25.1-test.1"
+  }
+}

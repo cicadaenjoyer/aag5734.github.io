@@ -1,0 +1,80 @@
+// ensure that the browser supports it
+@supports(grid-area:auto) {
+  @include with-breakpoints() using ($prefix-with-bname) {
+    .#{$prefix-with-bname}grid {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+  }
+
+  @include with-breakpoints() using ($prefix-with-bname) {
+    @for $n from 1 through 12 {
+      .#{$prefix-with-bname}has-#{$n}-columns {
+        grid-template-columns: repeat($n, 1fr);
+      }
+      .#{$prefix-with-bname}has-#{$n}-rows {
+        grid-template-rows: repeat($n, 1fr);
+      }
+
+      .#{$prefix-with-bname}column-gap-#{$n*5} {
+        grid-column-gap: $n*5px;
+      }
+      .#{$prefix-with-bname}row-gap-#{$n*5} {
+        grid-row-gap: $n*5px;
+      }
+
+      //grid items
+      .#{$prefix-with-bname}column-start-#{$n} {
+        grid-column-start: $n;
+      }
+      .#{$prefix-with-bname}column-end-#{$n} {
+        grid-column-end: $n+1;
+      }
+      .#{$prefix-with-bname}column-span-#{$n} {
+        grid-column-end: span $n;
+      }
+      .#{$prefix-with-bname}row-start-#{$n} {
+        grid-row-start: $n;
+      }
+      .#{$prefix-with-bname}row-end-#{$n} {
+        grid-row-end: $n+1;
+      }
+      .#{$prefix-with-bname}row-span-#{$n} {
+        grid-row-end: span $n;
+      }
+    }
+
+    @each $value in (start, end, center, stretch) {
+      .#{$prefix-with-bname}justify-items-#{$value} {
+        justify-items: $value;
+      }
+      .#{$prefix-with-bname}align-items-#{$value} {
+        align-items: $value;
+      }
+
+      //grid items
+      .#{$prefix-with-bname}justify-self-#{$value} {
+        justify-self: $value;
+      }
+      .#{$prefix-with-bname}align-self-#{$value} {
+        align-self: $value;
+      }
+    }
+
+    @each $value in (start, end, center, stretch, space-around, space-between, space-evenly) {
+      .#{$prefix-with-bname}justify-content-#{$value} {
+        justify-content: $value;
+      }
+      .#{$prefix-with-bname}align-content-#{$value} {
+        align-content: $value
+      }
+    }
+
+    @each $direction in (row, column) {
+      .#{$prefix-with-bname}auto-flow-#{$direction} {
+        grid-auto-flow: $direction;
+      }
+    }
+  }
+}
