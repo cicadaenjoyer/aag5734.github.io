@@ -29,10 +29,10 @@ p {
   color: white;
 }
 
-.about,
-.experience,
-.projects,
-.education {
+.body.about,
+.body.experience,
+.body.projects,
+.body.education {
   text-align: center;
   display:inline-block;
   position:relative;
