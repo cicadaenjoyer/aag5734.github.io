@@ -34,6 +34,8 @@ p {
 .projects,
 .education {
   text-align: center;
+  display:inline-block;
+  position:relative;
 }
 
 .sidebar {
