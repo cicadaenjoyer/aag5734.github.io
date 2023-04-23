@@ -29,9 +29,9 @@ p {
   color: white;
 }
 
-.body.about
-.body.experience
-.body.projects
+.body.about,
+.body.experience,
+.body.projects,
 .body.education {
   text-align: center;
 }
