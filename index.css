@@ -30,7 +30,8 @@ p {
 }
 
 .body {
-  float: right;
+  display: inline-block;
+  float: left;
 }
 
 .sidebar {
