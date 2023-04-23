@@ -29,13 +29,8 @@ p {
   color: white;
 }
 
-.body.about,
-.body.experience,
-.body.projects,
-.body.education {
-  text-align: center;
-  display:inline-block;
-  position:relative;
+.body {
+  float: right;
 }
 
 .sidebar {
