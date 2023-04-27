@@ -22,6 +22,6 @@ layout: post
 
 **A simulated digital storefront that enables users to create accounts, peruse a selection of dice, proceed to checkout, and create personalized dice.**
 
-This site makes use of the Angular framework and is built with Typescript, HTML, and CSS. 
+This site utilizes the Angular framework and is constructed using Typescript, HTML, and CSS.
 
 ![Large example image](/assets/images/Dicestore.png "Large example image")

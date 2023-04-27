@@ -21,8 +21,8 @@ layout: post
 
 **A secure messaging platform that enables users to transmit and receive messages through a command-line interface, utilizing robust RSA key encryption.**
 
-Using the principles of RSA key encryption, I have built a command line application that's built in .NET 6.0 where users are able
-to create public and private keys, send these keys to a database, retrieve public keys from other users, send messages to users,
-and retrieve messages from their inbox. 
+Using the principles of RSA key encryption, I have built a command line application that's built in .NET 6.0. This application 
+facilitates the creation of public and private key pairs and stores them securely within a database. Users can receive public 
+keys from other users and use them to send encrypted messages to each other as well as receive messages from their inbox. 
 
 More information on RSA key generation can be found [here](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
