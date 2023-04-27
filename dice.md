@@ -24,4 +24,10 @@ layout: post
 
 This site utilizes the Angular framework and is constructed using Typescript, HTML, and CSS.
 
-![Large example image](/assets/images/Dicestore.png "Large example image")
+Contributors: <br />
+Chris Bo [csb3946@rit.edu] <br />
+Liam Coleman [lpc5500@rit.edu] <br />
+Kevin Liddle [kil4216@rit.edu] <br />
+Kaitlyn Yandil [kmy1691@rit.edu]
+
+![Dice Image](/assets/images/Dicestore.png "Dice Image")
