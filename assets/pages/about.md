@@ -30,9 +30,5 @@ genetic algorithms, and Agile/Scrum work methodologies. My expertise in these
 areas have been honed through my work experience and a deep understanding of 
 software development principles. 
 
-<!-- ## ...this theme #
-
-Shredded! Simply stated in three words: ugly, old and barren.
-<a href="https://github.com/kxxvii/Kikofri" style="color: #800000;">
-Kikofri@github</a>. -->
+This site is still under development. Major changes are in the works!
 
