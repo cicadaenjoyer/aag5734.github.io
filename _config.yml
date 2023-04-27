@@ -35,8 +35,8 @@ logo:
 # # # # #
 
 # URL-stuff, don't forget the 'http...'-part
-url: https://aag5734.github.io 
-baseurl: ""
+url: https://aag5734.github.io
+#baseurl: ""
 permalink: /:year/:month/:day/:title.html
 
 domain: aag5734.github.io       
