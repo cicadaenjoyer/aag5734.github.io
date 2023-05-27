@@ -14,7 +14,7 @@ layout: pages
 ## iDTech Camp Counselor Co-Op #
 #### 05/2023 - CURRENT #
 
-Taught students a plethora of different languages and their applications, mostly using Java and Python. These concepts ranged in difficulty: from basic Python concepts such as classes and inheritence to more advanced subjects such as artifical intelligence, neural networking, and game development with Java.
+Taught students a plethora of different languages and their applications, mostly using Java and Python. These concepts ranged in difficulty: from basic Python concepts such as classes and inheritance to more advanced subjects such as artificial intelligence, neural networking, and game development with Java.
 
 ## Supplemental Instruction Leader #
 #### 08/2021 - CURRENT # 
