@@ -17,4 +17,4 @@ layout: pages
 
 FROM: 2020 <br />
 TO: 2025 <br />
-Current GPA: 3.82
+Current GPA: 3.6
