@@ -22,7 +22,7 @@ layout: post
 
 **A simple forum website where you can talk freely about your interests. Sign up for an account and login to be able to create threads and comment on existing threads.**
 
-![Cicada Image](/assets/images/coolcicada.png "Cicada Image")
+![Cicada Image](/assets/images/coolcicada.jpg "Cicada Image")
 
 This site makes use of React and NodeJS to support the front and back end respectively. Once finished, this site will allow users to create an account, publish threads, and comment on threads.
 
