@@ -11,7 +11,7 @@
     {% if content contains 'µ#' or 'µ;;' or 'µµ' -%}
         {{- content
             | replace: 'µ#', '<sup>[' | replace: '#µ', ']</sup>'
-            | replace: 'µ;;', '<b>' | replace: ';;µ', '</b>'
+            | replace: 'µ;;', '<b style="text-align: center;">' | replace: ';;µ', '</b>'
             | replace: "µµ", "&emsp;" }}
     {%- else -%}
         {{- content -}}
