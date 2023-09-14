@@ -6,40 +6,35 @@ happen to work on."
 layout: pages
 ---
 
-{% comment %}
-    You should probably delete everything here and write
-    something for yourself.
-{% endcomment %}  
 
-## iDTech Camp Counselor Co-Op #
-#### 05/2023 - CURRENT #
+## Software Programmer #
+#### 09/2023 - CURRENT #
 
-Taught students a plethora of different languages and their applications, mostly using Java and Python. These concepts ranged in difficulty: from basic Python concepts such as classes and inheritance to more advanced subjects such as artificial intelligence, neural networking, and game development with Java.
+Using both JavaScript and Python, along with agile and scrum methodologies, planned and implemented automated data processing workflows using a combination of open-source tools and proprietary software. Programmed templates for variable data printing and developed Python scripts to clean and prepare data for marketing campaigns. Also responsible for overseeing the daily operation of these workflows in a hybrid Windows and Linux environment.
+
+## Artificial Inteligence Instructor #
+#### 05/2023 - 08/2023 #
+
+Taught students at prestigious universities the concepts of artificial intelligence and machine learning. Covered subjects such as dense and convolutional neural networks, computer vision, and deep learning. Demonstrated the process of building, training, and evaluating neural networks for image recognition projects, along with teaching how to import custom datasets using Python and tools like TensorFlow and Keras. Showed leadership skills by collaborating with fellow instructors and effectively communicated through lectures and engaging with parents.
 
 ## Supplemental Instruction Leader #
 #### 08/2021 - CURRENT # 
 
-Facilitate weekly 1 hour sessions between classes that help students to better 
-understand computer science courses. Develop and create unique coding exercises, 
-lectures, and assignments throughout sessions that mirror the degree of difficulty 
-and relevancy to the current course using languages such as Java, Python, and C. 
-Previously supported Computer Science 1 and Problem Solving & Software Development II; 
-currently supporting The Mechanics of Programming.
+Facilitate 1 hour weekly sessions to help students better understand the topics covered in historically difficult computer science courses at the Rochester Institute of Technology. Develop unique coding exercises, lectures, and assignments meant to reflect the degree of difficulty of the courses. Programming languages used included Python, Java, and C. Communicated with professors to discuss ideal lecturing techniques and analyze course statistics.
 
-## Student Grader #
+## Teacher Assistant #
 #### 08/2021 - 08/2022 # 
 
-Graded and evaluated computer science assignments submitted by students on a weekly 
-basis from courses that were personally previously taken. Assignments ranged in both 
-difficulty and coding languages. Examples include making a Python program that 
-simulates a railway system using queues and threads as well as creating a C program 
-that replicates the basic functions of a social media platform while managing memory storage.
+Graded and evaluated computer science assignments submitted by students every week from the Computer Science 1 and 2
+courses at the Rochester Institute of Technology. Assignments ranged in both difficulty and coding languages; examples
+include a Python program that simulated a railway system using queues and threads as well as a C program 
+that replicated the basic functions of a social media platform while managing memory storage. Provided timely 
+feedback to students where I discussed how they could improve in terms of their memory usage, runtime, code structure and documentation.
 
 ## Summer Camp Counselor #
 #### 09/2016 - 05/2017 # 
 
-Worked with a team of college students to create and organize educational and extracurricular 
-activities for students from grades 1-5. Worked personally with students to help them with 
-their reading and math skills. Facilitated hour-long meetings before the start of each day 
-where employees would discuss activity ideas, how to manage the time for the day, and how to 
-improve the program.
+Participated in the development and coordination of educational and extracurricular activities aimed at elementary
+school students in my local community. Duties included helping students with their reading and math skills, organizing
+outdoor activities, and facilitating daily hour-long meetings. In these meetings, we discussed activity ideas, the
+workday schedule, and ways to improve the program.
