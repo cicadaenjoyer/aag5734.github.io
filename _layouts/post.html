@@ -5,12 +5,6 @@ layout: pages
 <div class="content post">
     <h1>{{ page.title }}</h1>
     <time>{{ page.date | date_to_string }}</time>
-
-    {%- comment -%}
-        See '/ofri' or '2019-03-07-whats-Kikofri.md'
-        for explanations.
-    {%- endcomment -%}
-
     
     {%- if content contains 'µ#' or 'µ;;;' or 'µµ' -%}
         {{- content

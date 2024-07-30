@@ -1,17 +1,11 @@
 ---
-title: Contact...
+title: Contact
 permalink: /contact
-description: "This is where I say something about myself or whatever I
-happen to work on."
+description: "My contact information and portfolio"
 layout: pages
 ---
 
-{% comment %}
-    You should probably delete everything here and write
-    something for yourself.
-{% endcomment %}  
-
-### Contact Info  #
+### Contact Info
 
 Mobile: (415) 342-9818 <br />
 Email: abehernandezwork@gmail.com

@@ -5,7 +5,6 @@ layout: post
 ---
 
 <style>
-
  img {
   border: solid grey 1px;
 }
@@ -16,7 +15,6 @@ layout: post
   text-decoration: underline;
   margin-top: -7px;
 }
-
 </style>
 
 **FlashcardFables is a Java project that aims to make studying fun by combining the concept of flashcards with an adventurous game**

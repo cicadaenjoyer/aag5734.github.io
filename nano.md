@@ -1,22 +1,20 @@
 ---
 title:		'NanoBot'
-description:	"A short description of the works"
+description:	"Page detailing the discord bot 'NanoBot' and its functions"
 layout: post
 ---
 
 <style>
-
  img {
   border: solid grey 1px;
 }
 
-  h5 {
+ h5 {
   text-align: center;
   color: #000;
   text-decoration: underline;
   margin-top: -7px;
 }
-
 </style>
 
 **A Discord bot that uses ChatGPT to provide responsive solutions and engage in discourse with Discord community members. Additionally, Nano facilitates the capability to assign member role assignments among other functionalities.**

@@ -1,13 +1,10 @@
 ---
 title:		'D&D Dice Store'
-description:	"A short description of the works"
+description:	"Page explaining the D&D project I worked on"
 layout: post
 ---
 
 <style>
-
- /* This is just for the 'img' examples towards the end */
-
  img {
   border: solid grey 1px;
 }
@@ -24,10 +21,10 @@ layout: post
 
 This site utilizes the Angular framework and is constructed using Typescript, HTML, and CSS.
 
-Contributors: <br />
-Chris Bo [csb3946@rit.edu] <br />
-Liam Coleman [lpc5500@rit.edu] <br />
-Kevin Liddle [kil4216@rit.edu] <br />
+Contributors: <br/>
+Chris Bo [csb3946@rit.edu] <br/>
+Liam Coleman [lpc5500@rit.edu] <br/>
+Kevin Liddle [kil4216@rit.edu] <br/>
 Kaitlyn Yandil [kmy1691@rit.edu]
 
 ![Dice Image](/assets/images/Dicestore.png "Dice Image")

@@ -1,13 +1,10 @@
 ---
 title:		'Cicada Cove'
-description:	"A short description of the works"
+description:	"Page explaining the cicada cove forum"
 layout: post
 ---
 
 <style>
-
- /* This is just for the 'img' examples towards the end */
-
  img {
   border: solid grey 1px;
 }
@@ -24,6 +21,6 @@ layout: post
 
 ![Cicada Image](/assets/images/coolcicada.jpg "Cicada Image")
 
-This site makes use of React and NodeJS to support the front and back end respectively. Once finished, this site will allow users to create an account, publish threads, and comment on threads.
+This site makes use of React and NodeJS to support the front and back end respectively. Once finished, this site will allow users to create an account, publish, and comment on threads.
 
 [Github Repo](https://github.com/aag5734/CicadaCove)

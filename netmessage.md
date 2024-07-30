@@ -1,11 +1,10 @@
 ---
 title:		'.NET Messaging'
-description:	"A short description of the works"
+description:	"Page detailing my academic .NET project"
 layout: post
 ---
 
 <style>
-
  img {
   border: solid grey 1px;
 }
@@ -16,7 +15,6 @@ layout: post
   text-decoration: underline;
   margin-top: -7px;
 }
-
 </style>
 
 **A secure messaging platform that enables users to transmit and receive messages through a command-line interface, utilizing RSA key encryption.**
