@@ -35,11 +35,11 @@ logo:
 # # # # #
 
 # URL-stuff, don't forget the 'http...'-part
-url: https://aag5734.github.io 
-#baseurl: ""
+url: https://www.cicadahub.dev
+# baseurl: "https://www.cicadahub.dev"
 permalink: /:year/:month/:day/:title.html
 
-domain: aag5734.github.io       
+domain: cicadahub.dev       
 
 # Markdown
 markdown: kramdown
