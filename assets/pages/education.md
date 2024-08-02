@@ -5,10 +5,10 @@ description: "My academic history"
 layout: pages
 ---
 
-### University
+<h2 style="font-size:180%"> Education </h2>
 
-## Rochester Institute of Technology
+<h3> Rochester Institute of Technology </h3>
+<h3 style="font-size:120%"> B.S., Computer Science </h3>
+_August 2020 - May 2025_
 
-FROM: 2020 <br />
-TO: 2025 <br />
-Current GPA: 3.6
+<p> Cumulative GPA: 3.6 </p>

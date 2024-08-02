@@ -5,7 +5,7 @@ description: "My contact information and portfolio"
 layout: pages
 ---
 
-### Contact Info
+<h2> Contact </h2>
 
 Mobile: (415) 342-9818 <br />
 Email: abehernandezwork@gmail.com
