@@ -5,27 +5,15 @@ layout: post
 permalink: '/dice.html'
 ---
 
-<style>
- img {
-  border: solid grey 1px;
-}
+<h5>A simulated digital storefront that enables users to create accounts, peruse a selection of dice, proceed to checkout, and create personalized dice.</h5>
 
-  h5 {
-  text-align: center;
-  color: #000;
-  text-decoration: underline;
-  margin-top: -7px;
-}
-</style>
-
-**A simulated digital storefront that enables users to create accounts, peruse a selection of dice, proceed to checkout, and create personalized dice.**
+<img style="width:800px" src="/assets/images/Dicestore.png">
 
 This site utilizes the Angular framework and is constructed using Typescript, HTML, and CSS.
 
 Contributors: <br/>
-Chris Bo [csb3946@rit.edu] <br/>
-Liam Coleman [lpc5500@rit.edu] <br/>
-Kevin Liddle [kil4216@rit.edu] <br/>
-Kaitlyn Yandil [kmy1691@rit.edu]
+&nbsp;&nbsp;&nbsp;Chris Bo [csb3946@rit.edu] <br/>
+&nbsp;&nbsp;&nbsp;Liam Coleman [lpc5500@rit.edu] <br/>
+&nbsp;&nbsp;&nbsp;Kevin Liddle [kil4216@rit.edu] <br/>
+&nbsp;&nbsp;&nbsp;Kaitlyn Yandil [kmy1691@rit.edu]
 
-![Dice Image](/assets/images/Dicestore.png "Dice Image")
