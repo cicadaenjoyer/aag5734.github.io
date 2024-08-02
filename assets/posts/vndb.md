@@ -2,6 +2,7 @@
 title:		'VNDB Recommender'
 description:	"A short description of the works"
 layout: post
+permalink: '/vndb.html'
 ---
 
 <style>

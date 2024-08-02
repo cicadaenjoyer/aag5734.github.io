@@ -2,6 +2,7 @@
 title:		'.NET Messaging'
 description:	"Page detailing my academic .NET project"
 layout: post
+permalink: '/netmessage.html'
 ---
 
 <style>

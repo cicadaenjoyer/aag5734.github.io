@@ -1,7 +1,3 @@
-# # # # # # # # # #
-#  K i k o f r i  #
-# # # # # # # # # #
-
 # # # # #
 # Used as meta-data for 'head.html' among 
 # other things.
@@ -39,7 +35,7 @@ url: https://www.cicadahub.dev
 # baseurl: "https://www.cicadahub.dev"
 permalink: /:year/:month/:day/:title.html
 
-domain: cicadahub.dev       
+domain: cicadahub.dev
 
 # Markdown
 markdown: kramdown

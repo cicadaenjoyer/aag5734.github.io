@@ -2,6 +2,7 @@
 title:		'Cicada Cove'
 description:	"Page explaining the cicada cove forum"
 layout: post
+permalink: '/cicada.html'
 ---
 
 <style>

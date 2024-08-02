@@ -2,6 +2,7 @@
 title:		'D&D Dice Store'
 description:	"Page explaining the D&D project I worked on"
 layout: post
+permalink: '/dice.html'
 ---
 
 <style>

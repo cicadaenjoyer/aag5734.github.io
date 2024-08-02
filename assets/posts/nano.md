@@ -2,6 +2,7 @@
 title:		'NanoBot'
 description:	"Page detailing the discord bot 'NanoBot' and its functions"
 layout: post
+permalink: '/nano.html'
 ---
 
 <style>

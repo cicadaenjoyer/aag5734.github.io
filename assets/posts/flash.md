@@ -2,6 +2,7 @@
 title:		'FlashCard Fables'
 description:	"A small flashcard game using Java"
 layout: post
+permalink: '/flash.html'
 ---
 
 <style>
