@@ -1,5 +1,12 @@
 ---
 ---
+:root {
+	--primary-color: #800000;
+}
+
+.primary-color {
+	color: var(--primary-color);
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -21,6 +28,7 @@ body {
   	background-color: #ffffff;
   	-webkit-text-size-adjust: 100%;
       	-ms-text-size-adjust: 100%;
+	transition: background-color 0.5s ease;
 }
 
 .container {
@@ -35,7 +43,7 @@ body {
 }
 
 a {
-  	color: #800000;
+  	color: var(--primary-color);
   	text-decoration: none;
 
     &:hover, &:focus {
@@ -47,7 +55,7 @@ b {
  	font-weight: normal;
  	background-color: #f2f2f2;
  	padding: 0 0.2rem 0.1rem 0.3rem;
- 	border: solid 1px #800000;
+ 	border: solid 1px var(--primary-color);
  	color: black;
 }
 
@@ -66,12 +74,6 @@ h1 {
   	font-size: 2rem;
     margin-bottom: 0;
 }
-
-{%- comment -%}
-    Probably wouldn't 'h2' use this for
-    actual posts. Huge in-post headers
-    just don't look right.
-{%- endcomment -%}
 
 /* Index-page titles */
 h2 {
