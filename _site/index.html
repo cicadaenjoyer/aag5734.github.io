@@ -56,14 +56,22 @@
             height: 25px;
         }
 
-        /* styles for dark mode */
+        /* styles for dark/light modes */
         .dark-mode {
             background-color: gray;
             transition: background-color 0.5s ease;
         }
-
         .dark-mode .header .header-nav a {
             color: black;
+            transition: color 0.5s ease;
+        }
+
+        .light-mode {
+            background-color: #ffffff;
+            transition: background-color 0.5s ease;
+        }
+        .light-mode .header .header-nav a {
+            color: #808080;
             transition: color 0.5s ease;
         }
 
