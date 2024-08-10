@@ -59,20 +59,22 @@
         /* styles for dark/light modes */
         .dark-mode {
             background-color: gray;
-            transition: background-color 0.5s ease;
+            transition: none;
         }
+
         .dark-mode .header .header-nav a {
             color: black;
-            transition: color 0.5s ease;
+            transition: none;
         }
 
         .light-mode {
             background-color: #ffffff;
-            transition: background-color 0.5s ease;
+            transition: none;
         }
+
         .light-mode .header .header-nav a {
             color: #808080;
-            transition: color 0.5s ease;
+            transition: none;
         }
 
         /* tooltip styling */
@@ -262,7 +264,30 @@
     // Function to update the site theme
     function updateSiteTheme(isDarkMode) {
         const checkbox = document.getElementById('colorToggle');
+
+        // adding in a transition to each theme element before toggling them on
+        let darkModeElements = document.querySelectorAll(".dark-mode");
+        let lightModeElements = document.querySelectorAll(".light-mode");
+        darkModeElements.forEach(element => {
+            element.style.transition = "0.5s ease-in-out";
+        });
+        lightModeElements.forEach(element => {
+            element.style.transition = "0.5s ease-in-out";
+        });
+
+        // toggle respective theme element on/off
+        document.body.classList.toggle('light-mode', !checkbox.checked);
         document.body.classList.toggle('dark-mode', checkbox.checked);
+
+        // Removing animation to avoid from playing on new page / reload
+        setTimeout(() => {
+            darkModeElements.forEach(element => {
+                element.style.transition = "none";
+            });
+            lightModeElements.forEach(element => {
+                element.style.transition = "none";
+            });
+        }, 500);
     }
 
     // Retrieve the toggle state from localStorage and apply it
