@@ -11,6 +11,6 @@ permalink: '/cicada.html'
 
 <p>This site makes use of React and NodeJS to support the front and back end respectively. Once finished, this site will allow users to create an account, publish, and comment on threads.</p>
 
-<a href="https://github.com/aag5734/CicadaCove" target="_blank">
+<a href="https://github.com/cicadaenjoyer/CicadaCove" target="_blank">
 Github Repo</a>
 <p></p>

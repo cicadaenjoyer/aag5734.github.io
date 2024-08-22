@@ -11,6 +11,6 @@ permalink: '/nano.html'
 
 <p>NanoBot is constructed using Javascript and its corresponding DiscordJS libraries. More information can be found on the public release of NanoBot.</p>
 
-<a href="https://github.com/aag5734/NanoBotPublic" target="_blank">
+<a href="https://github.com/cicadaenjoyer/NanoBotPublic" target="_blank">
 Github Repo</a>
 <p></p>

@@ -11,6 +11,6 @@ In this game, players are given spell cards with terms on them, and they will en
 
 This game makes use of Java.
 
-<a href="https://github.com/aag5734/FlashcardFables" target="_blank">
+<a href="https://github.com/cicadaenjoyer/FlashcardFables" target="_blank">
 Github Repo</a>
 <p></p>
