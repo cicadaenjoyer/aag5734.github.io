@@ -10,7 +10,7 @@ layout: pages
 Mobile: (415) 342-9818 <br />
 Email: abehernandezwork@gmail.com
 
-<a href="https://www.linkedin.com/in/abraham-hernandez-8951971b7/" style="color: #800000;">
+<a href="https://www.linkedin.com/in/abrahamh-dev/" style="color: #800000;">
 LinkedIn</a>
 
 <a href="https://github.com/cicadaenjoyer" style="color: #800000;">
