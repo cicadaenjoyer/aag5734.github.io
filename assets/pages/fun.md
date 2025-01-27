@@ -44,6 +44,10 @@ layout: pages
     }
 </style>
 
+<h3 style="text-decoration: underline;">What's Abe Up To?</h3>
+<p style="text-align:center">School's started and what a nice break it was! I've been meaning to update the site for a while, but I was busy on my first week and felt extremely sick on my second week ╥﹏╥. Regardless though, I'm still here! I'm looking to join a few more clubs and get more involved with the community now that I have some more free time. I have some projects that I look forward to continuing as well, so stay tuned!</p>
+<br>
+
 <h2>Media of the Month</h2>
 <h3>January 2025<h3>
 <br>
