@@ -18,7 +18,7 @@ layout: pages
     .media-item p {
         text-align: center;
         font-size: 60%;
-        width: 250px;
+        width: 300px;
         color: black;
         text-transform: none;
         text-decoration: none!important;
@@ -45,32 +45,34 @@ layout: pages
 </style>
 
 <h2>Media of the Month</h2>
-<h3>September 2024<h3>
+<h3>January 2025<h3>
 <br>
 <div class="media-container">
     <div class="media-item">
-        <h1>The Division Bell - Pink Floyd</h1>
-        <a href="https://open.spotify.com/album/5F0IQXuHfTV7SBvZVnXERl?si=0osLa1MtQz67hJLAzj1p-A" target="_blank">
-            <img src="/assets/images/album.jpg">
+        <h1>Final Fantasy VII - Remake</h1>
+        <a href="https://store.steampowered.com/app/1462040/FINAL_FANTASY_VII_REMAKE_INTERGRADE/" target="_blank">
+            <img src="/assets/images/game1.jpg">
         </a>
-        <p>Pink Floyd is my favorite band by far. I recently got back into listening to them and cannot stop listening to their 
-        album 'The Divison Bell'. The songs 'Poles Apart' and 'A Great Day for Freedom' are among my favorite songs of all time;
-        they never fail to make me emotional each time I listen to them. The album was made in response to ongoing feuds
-        between the band members. It deals with the themes of communication and human relationships. I implore you to listen to
-        this album. It is one of the GOATS!</p>
+        <p>Final Fantasy VII Remake is a game that I have been meaning to get to for the longest time. I've had short spurts
+        of interest in the game for a few years, but I have only just now decided to sit down and enjoy the full experience. FFVII is
+        a game that is near and dear to my heart. I am a huge fan of the FF series as a whole and it is what jumpstarted my interest in the 
+        JRPG genre. While the 'remake' does have it flaws, it's still a masterfully crafted videogame with fun gameplay, stunning visuals,
+        and a great soundtrack. It's hard to recommend this game if you have never played the original; as confusing as it sounds, this game is
+        NOT a retelling of the original story. I recommend playing through the original or reading a story synposis before diving into the remake!</p>
     </div>
     <div class="media-item">
-        <h1>Final Fantasy VII Crisis Core Reunion</h1>
-        <a href="https://store.steampowered.com/app/1608070/CRISIS_CORE_FINAL_FANTASY_VII_REUNION/" target="_blank">
-            <img src="/assets/images/game.jpg">
+        <h1>Wolfenstein: The New Order</h1>
+        <a href="https://store.steampowered.com/app/201810/Wolfenstein_The_New_Order/" target="_blank">
+            <img src="/assets/images/game2.jpg">
         </a>
-        <p>FF7 Crisis Core Reunion is a remake of a PSP game of the same name. It follows Zach, a SHINRA soldier, and his time
-        as a rookie doing odd jobs. As the game progresses, he finds himself getting deeper and deeper into an underlying controversy. 
-        This is a prequel to Final Fantasy VII and as such is best enjoyed if you've played it first. However, I feel that 
-        Crisis Core can still be enjoyed by players who know nothing about the original FF7. Give it a try!</p>
+        <p>Wolfenstein is a first person shooter game where you play as an American WW2 veteran in an alternate world where Germany won the
+        war and invaded America. I'm not very keen on FPS games and, admittedly, have only played a handful. What I find interesting about 
+        Wolfenstein is its take on how a world where America lost would look like. I enjoy the distopian world that Betheseda created and I
+        also believe the gameplay to be fun. However, the game does drag on a bit and some sections do feel monotonous. If you're a fan of FPS
+        games, it may be worth it to check this out</p>
     </div>
 </div>
 
-<a href="https://backloggd.com/u/CicadaEnjoyer/" style="color: #800000;" target="_blank">
+<a href="https://backloggd.com/u/drywall/" style="color: #800000;" target="_blank">
 Backloggd</a>
 <p></p>
