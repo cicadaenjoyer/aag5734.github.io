@@ -45,35 +45,41 @@ layout: pages
 </style>
 
 <h3 style="text-decoration: underline;">What's Abe Up To?</h3>
-<p style="text-align:center">School's started and what a nice break it was! I've been meaning to update the site for a while, but I was busy on my first week and felt extremely sick on my second week ╥﹏╥. Regardless though, I'm still here! I'm looking to join a few more clubs and get more involved with the community now that I have some more free time. I have some projects that I look forward to continuing as well, so stay tuned!</p>
+<p style="text-align:center">A lot has been going on lately, and it's been both exciting and rewarding! I recently wrapped up a month-long 
+mentorship with Bloomberg, where I gained valuable insights on networking, tackled coding challenges, and learned from experienced professionals. 
+On the open source side, I made my first contribution to <a href="https://github.com/colorstackorg/oyster" target="_blank">Oyster</a>, ColorStack’s 
+student hub—which was a great milestone for me. Academically, I’ve been collaborating with a team on building a database system in C. My focus has 
+been on implementing core SQL operations like SELECT, DELETE, and INSERT, along with key components such as the storage catalog and page buffer system. 
+I also had the opportunity to contribute to the development of the DDL and DML parser.</p>
+<p style="text-align:center">One project I’m particularly excited to begin this month is a real-time emergency response application designed for 
+smartwatches. The goal is to detect critical, life-threatening situations and respond accordingly to ensure user safety. This was originally an 
+idea I had hoped to submit for the Google Solutions Challenge, but due to time constraints, I wasn’t able to fully commit to it at the time. I’m 
+looking forward to diving in now and can’t wait to share updates soon!</p>
+<p style="text-align:center">Oh and I guess I've been learning Japanese too haha (level 4 on WaniKani btw).</p>
 <br>
 
 <h2>Media of the Month</h2>
-<h3>January 2025<h3>
+<h3>April 2025<h3>
 <br>
 <div class="media-container">
     <div class="media-item">
-        <h1>Final Fantasy VII - Remake</h1>
-        <a href="https://store.steampowered.com/app/1462040/FINAL_FANTASY_VII_REMAKE_INTERGRADE/" target="_blank">
-            <img src="/assets/images/game1.jpg">
+        <h1>Megaman X4</h1>
+        <a href="https://store.steampowered.com/app/743890/Mega_Man_X_Legacy_Collection/" target="_blank">
+            <img src="/assets/images/game.jpg">
         </a>
-        <p>Final Fantasy VII Remake is a game that I have been meaning to get to for the longest time. I've had short spurts
-        of interest in the game for a few years, but I have only just now decided to sit down and enjoy the full experience. FFVII is
-        a game that is near and dear to my heart. I am a huge fan of the FF series as a whole and it is what jumpstarted my interest in the 
-        JRPG genre. While the 'remake' does have it flaws, it's still a masterfully crafted videogame with fun gameplay, stunning visuals,
-        and a great soundtrack. It's hard to recommend this game if you have never played the original; as confusing as it sounds, this game is
-        NOT a retelling of the original story. I recommend playing through the original or reading a story synposis before diving into the remake!</p>
+        <p>One of the all time greats, the best, the cream of the crop. Megaman X4 is the pinnacle of action packed platformer fun. The controls
+        are super fluid, the soundtrack is exilerating, and the boss fights are super exciting! X4 is probably one of my favorite games in the
+        genre and I have recently had the pleasure to revisit again. Safe to say, it still holds up in the year 2025!</p>
     </div>
     <div class="media-item">
-        <h1>Wolfenstein: The New Order</h1>
-        <a href="https://store.steampowered.com/app/201810/Wolfenstein_The_New_Order/" target="_blank">
-            <img src="/assets/images/game2.jpg">
+        <h1>An Elephant Sitting Still (Soundtrack)</h1>
+        <a href="https://open.spotify.com/album/0m9977Xhx53ElLWusD0rJb" target="_blank">
+            <img src="/assets/images/album.jpeg">
         </a>
-        <p>Wolfenstein is a first person shooter game where you play as an American WW2 veteran in an alternate world where Germany won the
-        war and invaded America. I'm not very keen on FPS games and, admittedly, have only played a handful. What I find interesting about 
-        Wolfenstein is its take on how a world where America lost would look like. I enjoy the distopian world that Betheseda created and I
-        also believe the gameplay to be fun. However, the game does drag on a bit and some sections do feel monotonous. If you're a fan of FPS
-        games, it may be worth it to check this out</p>
+        <p>A hauntingly beautiful soundtrack for an equally somber film, this composition masterfully captures the raw emotions of loneliness and 
+        despair that permeate the story. Every note resonates with quiet intensity, drawing listeners deeper into the film's melancholic atmosphere. 
+        The composer, Hualan, showcases their expertise in the Post-Rock genre, blending ambient textures and emotional depth with a delicate, artful 
+        touch.</p>
     </div>
 </div>
 
